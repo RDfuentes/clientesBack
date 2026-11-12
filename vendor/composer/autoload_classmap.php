@@ -7,7 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'AllowDynamicProperties' => $vendorDir . '/symfony/polyfill-php82/Resources/stubs/AllowDynamicProperties.php',
+    'App\\Http\\Controllers\\Api\\ClienteController' => $baseDir . '/app/Http/Controllers/Api/ClienteController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Requests\\StoreClienteRequest' => $baseDir . '/app/Http/Requests/StoreClienteRequest.php',
+    'App\\Http\\Requests\\UpdateClienteRequest' => $baseDir . '/app/Http/Requests/UpdateClienteRequest.php',
+    'App\\Models\\Cliente' => $baseDir . '/app/Models/Cliente.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
